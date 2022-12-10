@@ -26,5 +26,6 @@
 
         </tbody>
     </table>
+<#--        <td><center>${auth}</center></td>-->
     </center>
 </@c.page>

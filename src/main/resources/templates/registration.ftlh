@@ -1,9 +1,9 @@
 <#import "parts/common.ftlh" as c>
 <#import "parts/login.ftlh" as l>
 <@c.page>
-    <center>
+    <left>
 Add new user
 <#--${message}-->
 <@l.registr "/registration" />
-    </center>
+    </left>
 </@c.page>

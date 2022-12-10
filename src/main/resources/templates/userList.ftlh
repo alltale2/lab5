@@ -1,6 +1,6 @@
 <#import "parts/common.ftlh" as c>
 <@c.page>
-    <center>
+    <left>
     List of user
     <table>
         <thead>
@@ -19,13 +19,13 @@
                 <td>${users.username}</td>
                 <td><#list users.roles as role> ${role} <#sep>, </#list></td>
                 <td>${users.email}</td>
-                <td><center>${users.password}</center></td>
-                <td><center>${users.refresh}</center></td>
+                <td><left>${users.password}</left></td>
+                <td><left>${users.refresh}</left></td>
             </tr>
         </#list>
 
         </tbody>
     </table>
 <#--        <td><center>${auth}</center></td>-->
-    </center>
+    </left>
 </@c.page>

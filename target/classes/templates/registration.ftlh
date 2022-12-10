@@ -3,7 +3,7 @@
 <@c.page>
     <center>
 Add new user
-
+<#--${message}-->
 <@l.registr "/registration" />
     </center>
 </@c.page>
